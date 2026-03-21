@@ -43,7 +43,7 @@ function isKakaoAvailable(): boolean {
 
 export function initKakao(): void {
   const kakaoKey =
-    process.env.NEXT_PUBLIC_KAKAO_JS_KEY || "ea95354167038ebb0be11c1aae1ffe26";
+    process.env.NEXT_PUBLIC_KAKAO_JS_KEY || "e5b2dcb918ad868354738b52fa9e69be";
 
   function tryInit() {
     if (typeof window === "undefined") return;
